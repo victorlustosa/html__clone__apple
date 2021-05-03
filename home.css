@@ -1,0 +1,23 @@
+/* css da página inicial */
+
+header {
+	background: #BBBBBB;
+	padding: 40px 0;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.logo {
+	width: 180px;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+body {
+	font-family: 'Orelega One', cursive;
+}
+

@@ -1,0 +1,75 @@
+/* css do corpo */
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+header {
+	background: #FFFFFF;
+	padding: 50px 0;
+}
+
+/* menu principal */
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0px auto;
+	height: 125px;
+}
+
+.logo {
+	width: 282px;
+}
+
+nav {
+	position: absolute;
+	top: 50%;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 50px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
+
+
+
+/* final pag localidade */
+
+/* rodapé */
+footer {
+	background: #000000d9;
+	text-align: center;
+	font-size: 12px;
+	padding: 15px
+}
+
+footer p {
+	color: #FFFFFF;
+	padding: 2em 0;
+}
+
+.ultima-linha-rodape p {
+	position: relative;
+	width: 940px;
+	display: inline;
+	padding: 0 10px;
+}
+
+.ultima-linha-rodape a {
+	text-decoration: none;
+	color: #515154;
+}
