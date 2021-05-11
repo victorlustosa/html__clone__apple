@@ -25,7 +25,7 @@ nav {
 	position: absolute;
 	top: 50%;
 	right: 0;
-	font-size: 30px;
+	font-size: 25px;
 }
 
 nav li {
@@ -169,7 +169,7 @@ nav a:hover {
 	margin: 0 auto;
 	font-size: 25px;
 	font-weight: bold;
-	color: #0000C0;
+	color: #5c75e6;
 	padding: 32px 0;
 }
 
@@ -585,6 +585,137 @@ li:hover {
 	color: #0000CC;
 }
 
+/* pag contato*/
+.contato {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.contato h1 {
+	margin: 40px 0;
+	font-size: 25px;
+	color: #be5252;
+	font-weight: bold;
+}
+
+form {
+	margin: 40px 0;
+}
+
+form label, form legend {
+	display: block;
+	font-size: 16px;
+	margin: 0 0 10px 0;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px ;
+	width: 50%;
+	border: 2px solid #be5252;
+	border-radius: 10px;
+}
+
+.input-sec {
+	display: inline-block;
+	margin: 18px 26px 20px 0;
+	padding: 10px 25px;
+	width: 15%;
+	border: 2px solid #be5252;
+	border-radius: 10px;
+}
+
+input:focus { 
+    outline: none;
+    border-color: #719ECE;
+	color: black;
+}
+
+select:focus {
+	outline: none;
+}
+
+textarea:focus { 
+    outline: none;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+.legend-estados {
+	margin: 20px 0 8px 0;
+	padding: 1px 0 0 0;
+}
+
+.label-sec {
+	display: inline-block;
+	position: absolute;
+	margin: 0;
+	top: 79.8%;
+}
+
+.estados {
+	display: inline-block;
+	position: absolute;
+	top: 78.3%;
+	margin: 10px;
+}
+
+.selec-estados {
+	margin: 2px 0 0 0;
+	padding: 9.5px 10px;
+	border: 2px solid #be5252;
+	border-radius: 10px;
+}
+
+.preferencia {
+	margin: 25px 0;
+}
+
+.legend-negrito {
+	font-weight: bold;
+}
+
+legend .preferencia {
+	font-weight: bold;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.enviar {
+	width: 40%;
+	padding: 15px 0;
+	background: #be5252;
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	transform: scale(1.1);
+}
+
+table {
+	margin: 20px 0 40px;
+}
+
+thead {
+	background: #5c75e6;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+td, th {
+	border: 1px solid #000000;
+	padding: 8px 15px;
+}
+
 /* rodapé */
 footer {
 	background: #000000d9;
@@ -600,21 +731,25 @@ footer {
 /* css para configuraçao mobile*/
 @media screen and (max-width: 480px) { 
     .caixa, .produtos-inicais, .sobre, .video, .descricao-produtos h2, .produtos, .iphone12-pag, 
-	.applewatch-pag, .ipadair-pag, .suporte, .caixa3, .lojas, .titulo-lojas {
+	.applewatch-pag, .ipadair-pag, .suporte, .caixa3, .lojas, .titulo-lojas, .contato {
 	    width: auto;
 		padding: 0 20px;
 	    }
 
 	header {
 		text-align: center;
-		padding: 70px 0;
-			}
+		padding: 30px 0 135px 0;
+	}
+
+	.logo {
+		margin: 0 0 30px;
+	}
 	
 	.banner, .produtos-iniciais, .imagem-iphone12, .imagem-applewatch, .imagem-ipadair, .iphone12-desc, .banner2 {
 		width: 100%;
 		height: auto;
 	}
-	
+
 	.applewatch, .ipadair {
 		height: 400px;
 	}
@@ -668,6 +803,32 @@ footer {
 
 	.gradiente {
 		height: 1200px;
+	}
+
+	.selec-estados {
+		display: block;
+		position: static;
+	}
+
+	.estados {
+		position: static;
+		margin: 10px 0 28px 0;
+	}
+
+	.input-sec {
+		display: block;
+		position: static;
+		width: 50%;
+	}
+
+	.label-sec {
+		display: block;
+		position: static;
+	}
+
+	.enviar {
+		width: auto;
+		padding: 15px 15px;
 	}
 
 	footer {
